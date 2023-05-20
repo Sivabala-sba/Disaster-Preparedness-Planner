@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disaster Preparedness Planner</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the Disaster Preparedness Planner</h1>
+  <form id="plannerForm">
+    <label for="helpType">Select Help Type:</label>
+    <select id="helpType">
+      <option value="individual">Individual</option>
+      <option value="community">Community</option>
+    </select>
+    <label for="country">Select Country:</label>
+    <select id="country">
+      <!-- Add your list of countries here -->
+      <option value="India">India</option>
+      <option value="country1">Country 1</option>
+      <option value="country2">Country 2</option>
+      <!-- ... -->
+    </select>
+    <label for="disasterType">Select Disaster Type:</label>
+    <select id="disasterType">
+      <!-- Add your list of disaster types here -->
+      <option value="Earthquack">Earthquack</option>
+      <option value="disaster1">Disaster 1</option>
+      <option value="disaster2">Disaster 2</option>
+      <!-- ... -->
+    </select>
+    <button type="submit">Get Checklist</button>
+  </form>
+
+  <div id="checklistContainer">
+    <!-- Checklist content will be dynamically inserted here -->
+  </div>
+
+  <div id="emergencyContacts">
+    <!-- Emergency contact numbers will be dynamically inserted here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
